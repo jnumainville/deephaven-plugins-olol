@@ -44,5 +44,4 @@ jobs:
         with:
           user: __token__
           password: ${{ secrets.PYPI_MATPLOTLIB_TOKEN }}
-          packages-dir:
-            - 'plugins/matplotlib/dist/'
+          packages-dir: 'plugins/matplotlib/dist/'

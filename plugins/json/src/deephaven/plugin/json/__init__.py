@@ -63,7 +63,7 @@ class Encoder(json.JSONEncoder):
         except TypeError:
             pass
 
-        # Fallback to unknown reference types
+        # Fallback to unknown reference typess
         ref = self._exporter.reference(obj, allow_unknown_type=True)
         if not ref:
             raise RuntimeError("Unable to create reference from exporter")

@@ -44,5 +44,4 @@ jobs:
         with:
           user: __token__
           password: ${{ secrets.PYPI_PLOTLY_TOKEN }}
-          packages-dir:
-            - 'plugins/plotly/dist/'
+          packages-dir: 'plugins/plotly/dist/'

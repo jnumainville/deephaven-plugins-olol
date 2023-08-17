@@ -48,7 +48,7 @@ def bar(
     template: str = None,
     unsafe_update_figure: callable = default_callback,
 ) -> DeephavenFigure:
-    """Returns a bar chart
+    """Returns a bar charts
 
     Args:
       table: Table:  (Default value = None)

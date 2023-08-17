@@ -65,5 +65,4 @@ jobs:
         with:
           user: __token__
           password: ${{ secrets.PYPI_JSON_TOKEN }}
-          packages-dir:
-            - 'plugins/json/dist/'
+          packages-dir: 'plugins/json/dist/'
